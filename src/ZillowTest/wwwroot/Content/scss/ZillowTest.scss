@@ -22,7 +22,7 @@ html, body, div, h1, h2, h3, h4, span {
     background: transparent;
 }
 
-body { 
+body {
     background-color: #d9edf7;
 }
 
@@ -41,7 +41,7 @@ footer {
     padding: 1rem;
     text-align: center;
 }
- 
+
 #search {
     background: #333333 url("../../images/backgroudhome.jpg") top no-repeat;
     background-size: cover;
@@ -68,6 +68,10 @@ footer {
         margin-right: auto;
         position: relative;
         font-weight: bold;
+
+        .validation-summary-errors {
+            text-shadow: none;
+        }
 
         select {
             padding: 10px 20px;
@@ -164,9 +168,8 @@ footer {
     }
 }
 // Search Result
-#SearchResult
-{
-   margin-top: 20px;
+#SearchResult {
+    margin-top: 20px;
 }
 
 .largeFont {

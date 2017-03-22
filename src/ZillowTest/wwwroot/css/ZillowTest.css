@@ -58,6 +58,8 @@ footer {
     position: relative;
     font-weight: bold;
     /* Hide/rearrange for smaller screens */ }
+    #feature-wrap #feature-search .validation-summary-errors {
+      text-shadow: none; }
     #feature-wrap #feature-search select {
       padding: 10px 20px; }
     #feature-wrap #feature-search input {
