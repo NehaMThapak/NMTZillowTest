@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47D4CEE4-2788-4BAA-8063-C0EDBE004446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB9D429F-E006-4FB7-938C-4EB0F8BDCCA0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZillowTest.Web", "src\ZillowTest\ZillowTest.Web.xproj", "{73ABDDD5-E1C4-496D-BA0F-549EF37A52D4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZillowTest.Models", "src\ZillowTest.Models\ZillowTest.Models.xproj", "{73F1C4E3-BDB0-455F-B952-0DFDFB082144}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZillowTest.Core", "src\ZillowTest.Core\ZillowTest.Core.xproj", "{0167E1BA-8A65-4419-931B-10022F2043EA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZillowTest.Web.Tests", "src\ZillowTest.Web.Tests\ZillowTest.Web.Tests.xproj", "{07C53F6E-31B4-4237-88A3-C5B5A5436166}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZillowTest.Core.Tests", "src\ZillowTest.Core.Tests\ZillowTest.Core.Tests.xproj", "{28C01F83-8546-40FC-ABEF-29DD1142FDDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73ABDDD5-E1C4-496D-BA0F-549EF37A52D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ABDDD5-E1C4-496D-BA0F-549EF37A52D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ABDDD5-E1C4-496D-BA0F-549EF37A52D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ABDDD5-E1C4-496D-BA0F-549EF37A52D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F1C4E3-BDB0-455F-B952-0DFDFB082144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F1C4E3-BDB0-455F-B952-0DFDFB082144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F1C4E3-BDB0-455F-B952-0DFDFB082144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F1C4E3-BDB0-455F-B952-0DFDFB082144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0167E1BA-8A65-4419-931B-10022F2043EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0167E1BA-8A65-4419-931B-10022F2043EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0167E1BA-8A65-4419-931B-10022F2043EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0167E1BA-8A65-4419-931B-10022F2043EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C53F6E-31B4-4237-88A3-C5B5A5436166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C53F6E-31B4-4237-88A3-C5B5A5436166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C53F6E-31B4-4237-88A3-C5B5A5436166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C53F6E-31B4-4237-88A3-C5B5A5436166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C01F83-8546-40FC-ABEF-29DD1142FDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C01F83-8546-40FC-ABEF-29DD1142FDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C01F83-8546-40FC-ABEF-29DD1142FDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C01F83-8546-40FC-ABEF-29DD1142FDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73ABDDD5-E1C4-496D-BA0F-549EF37A52D4} = {47D4CEE4-2788-4BAA-8063-C0EDBE004446}
+		{73F1C4E3-BDB0-455F-B952-0DFDFB082144} = {47D4CEE4-2788-4BAA-8063-C0EDBE004446}
+		{0167E1BA-8A65-4419-931B-10022F2043EA} = {47D4CEE4-2788-4BAA-8063-C0EDBE004446}
+		{07C53F6E-31B4-4237-88A3-C5B5A5436166} = {47D4CEE4-2788-4BAA-8063-C0EDBE004446}
+		{28C01F83-8546-40FC-ABEF-29DD1142FDDB} = {47D4CEE4-2788-4BAA-8063-C0EDBE004446}
+	EndGlobalSection
+EndGlobal
