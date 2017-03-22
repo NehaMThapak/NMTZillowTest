@@ -1,0 +1,17 @@
+﻿@model  ZillowTest.Web.ViewModels.PropertyViewModel
+
+<div class="col-md-6">
+    <h2 class="street">
+        @Model.PropertySearchResultBkt.Street,
+    </h2>
+
+    <span class="col-md-offset-5 col-sm-offset-5">@Model.PropertySearchResultBkt.City, @Model.PropertySearchResultBkt.State @Model.PropertySearchResultBkt.Zipcode</span>
+</div>
+<div class="col-md-6">
+
+    <iframe width="600"
+            height="450"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?q=@Model.PropertySearchResultBkt.Latitude,@Model.PropertySearchResultBkt.Longitude&key=AIzaSyDu4Olp8seepyqpcuYy-wc-8hMfrcu6i9U" allowfullscreen></iframe>
+</div>
+
